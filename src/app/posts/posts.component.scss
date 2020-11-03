@@ -24,7 +24,7 @@
         text-align: left;
         margin-top: 0;
     }
-    
+
     .top-container {
         display: flex;
         color: #fff;
@@ -52,8 +52,8 @@
                 flex-grow: 2;
                 cursor: pointer;
                 text-align: left;
-                transition: text-shadow 0.3s linear;  
-                
+                transition: text-shadow 0.3s linear;
+
                 &.disabled {
                     cursor: no-drop;
                     opacity: 0.6;
@@ -69,7 +69,7 @@
                 flex-grow: 2;
                 cursor: pointer;
                 text-align: right;
-                
+
                 &.disabled {
                     cursor: no-drop;
                     opacity: 0.6;
@@ -87,7 +87,7 @@
     }
 
     .middle-container {
-        padding-bottom: 2em;  
+        padding-bottom: 2em;
         display: flex;
 
         app-posts-carousel {
@@ -95,3 +95,4 @@
         }
     }
 }
+

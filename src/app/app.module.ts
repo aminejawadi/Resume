@@ -15,6 +15,7 @@ import localePtExtra from '@angular/common/locales/extra/pt';
 import { AngularFireModule } from '@angular/fire';
 import { AngularFireDatabaseModule } from '@angular/fire/database';
 import { AngularFireAnalyticsModule } from '@angular/fire/analytics';
+import { StudiesComponent } from './studies/studies.component';
 
 registerLocaleData(localeEn, 'en');
 registerLocaleData(localePt, 'pt-BR', localePtExtra);
@@ -30,8 +31,12 @@ registerLocaleData(localePt, 'pt-BR', localePtExtra);
     AngularFireDatabaseModule,
     AngularFireAnalyticsModule
   ],
-  declarations: [ AppComponent ],
-  bootstrap: [ AppComponent ]
+  declarations: [AppComponent, StudiesComponent],
+  exports: [
+    StudiesComponent
+  ],
+  bootstrap: [AppComponent]
 })
 
 export class AppModule {}
+

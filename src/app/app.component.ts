@@ -20,6 +20,7 @@ export class AppComponent implements OnInit {
     this.titleService.setTitle(this.title);
 
     this.metaTagService.addTags([
+      // tslint:disable-next-line:max-line-length
       { name: 'keywords', content: 'Web Developer, Java Developer, Full-stack Java Developer, DevOps Engineer, Android Developer, Guilherme Borges Bastos Live Resume, Guilherme Borges Bastos Resume, Guilherme Borges Bastos CV, Curriculum Guilherme Borges Bastos, GBASTOS Resumo, gbastos live resume' },
       { name: 'robots', content: 'index, follow' },
       { name: 'author', content: 'Guilherme Borges Bastos' },

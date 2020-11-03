@@ -16,14 +16,14 @@ import { FooterComponent } from "../footer/footer.component";
 @NgModule({
   imports: [
     ReactiveFormsModule,
-    CommonModule, 
+    CommonModule,
     CoreModule,
     FontAwesomeModule,
     WelcomeModule,
     ExperienceModule,
     PostsModule
   ],
-  declarations: [ 
+  declarations: [
     ResumeComponent,
     HeaderComponent,
     AboutComponent,

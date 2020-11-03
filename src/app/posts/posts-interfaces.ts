@@ -1,5 +1,5 @@
 export interface IPost {
-    thumbnail: string
+    thumbnail: string;
     http: string;
     date: string; // For the purpose of stringifying MM-DD-YYYY date format
     internationalizations: IPostInternationalization[];

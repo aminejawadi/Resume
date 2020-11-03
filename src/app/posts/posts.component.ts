@@ -1,20 +1,23 @@
-import { Component, OnInit } from "@angular/core";
-import { DataService } from "../core/data.service";
-import { IconDefinition } from "@fortawesome/free-solid-svg-icons";
-import { IPost } from "./posts-interfaces";
-import { faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import { Component, OnInit } from '@angular/core';
+import { DataService } from '../core/data.service';
+import { IconDefinition } from '@fortawesome/free-solid-svg-icons';
+import { IPost } from './posts-interfaces';
+import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
-  selector: "app-posts",
-  templateUrl: "./posts.component.html",
-  styleUrls: ["./posts.component.scss", "./posts.component.responsivity.scss"]
+  selector: 'app-posts',
+  templateUrl: './posts.component.html',
+  styleUrls: ['./posts.component.scss', './posts.component.responsivity.scss']
 })
 export class PostsComponent implements OnInit {
+  education: string ;
+  yearsOldd: string ;
+  namee: string;
 
-  currentPage: number = 1;
+  currentPage = 1;
   resultsPerPage: number;
   posts: IPost[] = [];
-  
+
   faChevronLeft: IconDefinition;
   faChevronRight: IconDefinition;
 
@@ -23,7 +26,7 @@ export class PostsComponent implements OnInit {
   ngOnInit(): void {
     this.faChevronLeft = faChevronLeft;
     this.faChevronRight = faChevronRight;
-    
+
     // Fetch the Posts from the Data Service
     this.dataService.getPosts()
       .subscribe((posts: IPost[]) => {
