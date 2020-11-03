@@ -8,7 +8,6 @@ import { ResumeModule } from './resume/resume.module';
 import { PageNotFoundRoutingModule } from './404/page-not-found-routing.module';
 import { PageNotFoundModule } from './404/page-not-found.module';
 import { CoreModule } from './core/core.module';
-
 import localeEn from '@angular/common/locales/en';
 import localePt from '@angular/common/locales/pt';
 import localePtExtra from '@angular/common/locales/extra/pt';
