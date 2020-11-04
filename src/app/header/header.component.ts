@@ -102,7 +102,7 @@ export class HeaderComponent implements OnInit, AfterViewInit {
     try {
       await this.ngNavigatorShareService.share({
         title: 'Live Resume Mohamed Amine Jaouadi',
-        text: 'Hello, I\'m a Full-stack Java Web Developer with 10+ years of experience designing web and mobile projects. Find out more in my live-resume!',
+        text: 'Hello, I\'m a Full-stack Java Web Developer . Find out more in my live-resume!',
         url: ''
       });
     } catch (error) {
