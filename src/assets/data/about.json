@@ -9,7 +9,7 @@
             "description": "I am Mohamed Amine Jaouadi <i>programmer</i> a final year computer science engineering student<i>Logo</i>, specialized in Web Devlopement <i>Programming</i>. "
         }
     ],
-    "medias": [        
+    "medias": [
         {
             "icon": "linkedin",
             "title": "LinkedIn",
@@ -23,10 +23,10 @@
         {
             "icon": "facebook",
             "title": "Facebook",
-            "http": "https://www.facebook.com/404"
+            "http": "https://www.facebook.com/"
         }
     ],
-    "hobbies": [        
+    "hobbies": [
         {
             "icon": "biking",
             "title": "Cycling"
