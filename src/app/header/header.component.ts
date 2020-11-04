@@ -10,7 +10,9 @@ import { NgNavigatorShareService } from 'ng-navigator-share';
 
 export class HeaderComponent implements OnInit, AfterViewInit {
 
+  // tslint:disable-next-line:variable-name
   private _activeSection: any;
+  // tslint:disable-next-line:variable-name
   private _pageXOffset: any;
   private ngNavigatorShareService: NgNavigatorShareService;
 
@@ -45,6 +47,7 @@ export class HeaderComponent implements OnInit, AfterViewInit {
     this.onDetectScreenSize();
   }
 
+  // tslint:disable-next-line:adjacent-overload-signatures
   @Input()
   set activeSection(value: any) {
     this._activeSection = value;
