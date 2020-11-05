@@ -13,18 +13,14 @@
         {
             "icon": "linkedin",
             "title": "LinkedIn",
-            "http": "https://www.linkedin.com/in/mohamed-amine-jaouadi-631b38172/"
+            "http": "https://www.linkedin.com/in/mohamed-amine-jaouadi-93/"
         },
         {
             "icon": "github",
             "title": "GitHub",
             "http": "https://github.com/aminejawadi"
         },
-        {
-            "icon": "facebook",
-            "title": "Facebook",
-            "http": "https://www.facebook.com/"
-        }
+
     ],
     "hobbies": [
         {
